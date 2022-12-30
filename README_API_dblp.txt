@@ -2,14 +2,14 @@
                                       API WEB pour le site dblp
 ************************************************************************************************
 
-C'est une API-Web codé en python réalisé par 
-des étudiants M1 informatique spécialité Réseaux a Sorbonne Université,
+C'est une API-Web codÃ© en python rÃ©alisÃ© par 
+des Ã©tudiants M1 informatique spÃ©cialitÃ© RÃ©seaux a Sorbonne UniversitÃ©,
 dans le cadre de l'UE PROGRES. 
 
-Prérequis :
+PrÃ©requis :
 ===========
--python 3.O ou version ultérieur 
--Les Bibliothèque nécessaire :
+-python 3.O ou version ultÃ©rieur 
+-Les BibliothÃ¨que nÃ©cessaire :
           * bottel
           * requests
           * xml.etree.ElementTree
@@ -32,14 +32,14 @@ Avec name le nom d'un auteur, elle liste les co-auteurs d'un auteur.
 
      4) /authors/{name}/synthesis : 
 Avec name le nom d'un auteur, elle retourne le nom d'un auteur, 
--Un tableau pour les conférences avec leurs années d'apparition et leurs classement CORE
--Un tableau pour les journaux avec leurs années d'apparition et leurs classement CORE 
+-Un tableau pour les confÃ©rences avec leurs annÃ©es d'apparition et leurs classement CORE
+-Un tableau pour les journaux avec leurs annÃ©es d'apparition et leurs classement CORE 
 
-**Toutes les routes on le même format d'erreur :
+**Toutes les routes on le mÃªme format d'erreur :
          Error: 404 Not Found
 
 
-Les liens d'accès :
+Les liens d'accÃ¨s :
 =================
 
      1) localhost:8080/authors/{name}
@@ -55,7 +55,6 @@ ensuite ecrire le prenom avec la premiere lettre en majuscule.
 
 
 ***********************************************************************************************
-Réaliser par :
+RÃ©aliser par :
 ==============
    -BOUKERRAS Hanny
-   -DJENKI Nabil 
